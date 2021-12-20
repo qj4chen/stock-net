@@ -1,0 +1,23 @@
+{
+    "stock_embedding": {
+        "LOAD_EMBEDDING_MODEL_FROM_DISK": true,
+        "STOCK2VEC_MODEL_PATH": "./output/model/",
+        "NUM_STOCKS_TO_HOLD": 10,
+        "NUM_WALKS": 100,
+        "P": 5,
+        "Q": 0.1,
+        "EXP_PORTFOLIO_RETURN": 0.5
+    },
+    
+    "PORTFOLIO_PATH": "./output/portfolio",
+    "PRINCIPAL": 1000000,
+
+    "data_preprocessing": {
+        "FILTERED_DATA_PATH": "./output/fund_holding_data_filtered.pkl",
+        "RESTART_PREPROCESSING": true,
+        "FILL_BY_MONTH": false,
+        "USE_ANNUAL_REPORT": true,
+        "STOCK_WEIGHT_THRESHOLD": 0.51
+    }
+    
+}
